@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blocNotas.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="container">
+    <div id="divNotas">
+        <div class="msj">Escribe algo en la nota</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="recuadro">
+            <input type="text" id="titulo" class="titulo" href="titulo"><br>
+            <textarea name="" id="texto" cols="30" rows="10" class="texto"></textarea>
+            <br>
+            <select name="tipoNota" id="tipoNota" class="seleccion">
+
+                <option value="trabajo">Trabajo</option>
+
+                <option value="escuela">Escuela</option>
+
+                <option value="personal">Personal</option>
+
+            </select>
+            <button id="agregar-nota" class="boton">Agregar</button><br>
+        </div>
+    </div>
+    <div id="divPizarra" class="pizarraDiv">
+        <h3>Tus notas</h3>
+        <div id="notasPublic" class="contenedor-notas">
+            <!--Notas-->
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
+
+<script type="text/javascript" src="main.js"></script>
