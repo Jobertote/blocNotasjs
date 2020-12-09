@@ -1,0 +1,169 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #F7AE65;
+    font: oblique bold 120% cursive;
+}
+#divNotas{
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#divPizarra{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    left: 25%;
+    top: 0%;
+    text-align: center;
+}
+
+#nota{
+    width: 60%;
+    height: 30%;
+    border-radius: 20%;
+    border-color: transparent;
+    background-size: 300%;
+    background-position-x: center;
+    background-color: transparent;
+    font-size: 200%;
+}
+
+#save{
+    height: 5%;
+    width: 20%;
+    border-radius: 10%;
+    background-color: teal;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+}
+
+
+.trabajo{
+    background-color: #e056fd;
+    box-shadow: 1px 1px 1px 1px #be2edd; 
+}
+.escuela{
+    background-color: #686de0;
+    box-shadow: 1px 1px 1px 1px #4834d4; 
+}
+.personal{
+    background-color: #badc58;
+    box-shadow: 1px 1px 1px 1px #6ab04c; 
+}
+.nota{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 10px;  
+}
+
+
+.contenedor-notas{
+    padding-top: -10%;
+    padding-left: 5%;
+}
+
+.eliminar{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    transition: .2 all;
+}
+
+.eliminar:hover{
+    color: rgba(0, 0, 0.6);
+}
+
+.msj{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    float: left;
+    background-color: red;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    line-height: 50px;
+    margin-top: -200px;
+    text-align: center;
+    transition: .3s all;
+    margin-left: 15%;
+}
+
+.mostrar{
+    margin-top: 20px;
+}
+
+h3{
+    color: #643A11;
+    top: -200px;
+    font-size: 40px;
+}
+
+.recuadro{
+    width: 75%;
+    height: 33%;
+    background-color: #E7B90F;
+    border-radius: 50px;
+    margin-left: 10%;
+}
+
+.texto{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-left: 6%;
+}
+
+.titulo{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-left: 6%;
+    margin-top: 10%;
+}
+
+.seleccion{
+    width: 100px;
+    height: 30px;
+    font-style: oblique bold 120% cursive;
+    border-radius: 15%;
+    background-color: #B07C06;
+    color: white;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.boton{
+    width: 100px;
+    height: 30px;
+    font-style: oblique bold 120% cursive;
+    color: white;
+    border-radius: 15%;
+    background-color: #3CA013;
